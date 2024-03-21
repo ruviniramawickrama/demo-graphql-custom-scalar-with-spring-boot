@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo-graphql-custom-scalar-with-spring-boot
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:\sql\schema.sql
+  jpa:
+      hibernate.ddl-auto: none
+  graphql:
+    graphiql:
+      enabled: true
