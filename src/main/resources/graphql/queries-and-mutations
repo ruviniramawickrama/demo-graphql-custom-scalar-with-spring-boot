@@ -1,9 +1,10 @@
 mutation {
  createBook (book: {name: "Harry Potter", genre: "Fantasy", author:"J.K.Rowling", createdAt: "2024-03-20T05:47:08.644"}) {
-    id
+   id
   	name
   	genre
   	author
+   createdAt
   }
 }
 
