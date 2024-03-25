@@ -10,6 +10,10 @@ When defining a GraphQL schema, we can use built-in scalar types provided by Gra
 
 Custom scalar types allow us to define and handle specialized data formats such as dates, timestamps, or any other custom data types not covered by the built-in scalars.
 
+Official Documentation: https://graphql.org/ for more details.
+GraphQL CRUD Operations: https://github.com/ruviniramawickrama/demo-graphql-with-spring-boot/
+GraphQL Custom Directive: https://github.com/ruviniramawickrama/demo-graphql-custom-directive-with-spring-boot/
+
 ### Prerequisites
 Before running the application, make sure the following list is installed/configured on your machine:
 
